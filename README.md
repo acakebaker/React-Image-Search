@@ -1,4 +1,4 @@
-<h1>Modern React with Redux</h1>
+<h2>Modern React with Redux</h2>
 
 <b>Started:</b> 12/31/2021
 <b>Finished:</b> Working on
