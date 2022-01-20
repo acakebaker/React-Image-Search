@@ -3,16 +3,12 @@ import React from 'react';
 import ImageCard from './ImageCard';
 
 const ImageList = ({ images }) => {
-
-  const image = images.map((image) => {
-    return <ImageCard key={image.id} image={image} />
+  // Sends the individual image id and image to the ImageCard.
+  const image = images.map((image, id) => {
+    return <ImageCard key={id} image={image} />
   });
 
-  return (
-    <div className='image-list'>
-      {image}
-    </div>
-  );
+  return <div className='image-list'>{image}</div>;
 };
 
 export default ImageList;
